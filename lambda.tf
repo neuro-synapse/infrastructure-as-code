@@ -35,7 +35,7 @@ resource "aws_iam_role_policy" "dns_refresh" {
             "Resource": [
               "*"
             ]
-        } 
+        }
     ]
 }
 EOF
@@ -158,3 +158,7 @@ resource "aws_lambda_event_source_mapping" "lambda_vpc_flow" {
 aws_cloudwatch_event_rule
 
 "${aws_cloudwatch_event_rule.shutdown_rule.arn}"
+
+
+
+##added new code for autoshutdown
