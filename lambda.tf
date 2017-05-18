@@ -163,3 +163,4 @@ aws_cloudwatch_event_rule
 
 ##added new code for autoshutdown
 #changes made to dev branch
+#add new feature autoshutdwo
